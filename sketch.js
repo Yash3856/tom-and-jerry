@@ -6,10 +6,10 @@ var mouse, mouseImg1,mouseImg2;
 function preload() {
     bg = loadImage("garden.png");
     catImg1= loadAnimation("catSitting.png");
-    catImg2=loadAnimation("catWalking1.png","images/catWalking2.png");
+    catImg2=loadAnimation("catWalking1.png","catWalking2.png");
     catImg3= loadAnimation("catHappy.png");
     mouseImg1=loadAnimation("mouseGift.png");
-    mouseImg2= loadAnimation("mouseTease1.png","images/mouseTease2.png");
+    mouseImg2= loadAnimation("mouseTease1.png","mouseTease2.png");
     mouseImg3=loadAnimation("mouseHappy.png");
 }
 
